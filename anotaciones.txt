@@ -1,0 +1,12 @@
+Estados globales (la store) vs estados locales(useState)
+    -Usamos un estado global cuando queremos acceder a él desde toda la app. Para ello usamos zustand o redux
+    -Usamos un estado local cuando queremos mostrar algo específico, como un slide de una descripción de algo o cuaando queremos que aparezca algo y con un click que desaparezca. Para ello usamos un useState y nada más. 
+
+Estados globales(la store):
+    typescript nos pide que tipemos la store, por eso, y en este caso, tipamos la store arriba de la creación de la store. 
+    La Store puede tener varias cosas, todo depende de nuestra página. 
+
+
+Media querys: 
+esto hacerlo con cada div, por ejemplo esto lo vamos a hacer con md: y la medida
+
