@@ -4,12 +4,12 @@ export const SectionImageText = () => {
 
     <section >
 
-        <div className=" h-[100vh] flex flex-col md:flex-row">
-            <div className=" h-[50vh]">
+        <div className=" h-[100vh] flex flex-col md:flex-row md:h-[80vh] ">
+            <div className=" h-[50vh] md:w-[50vw] md:h-[70vh]">
                 <img src="./images/mobile/image-transform.jpg" alt=""  className="h-[100%] w-[100%] object-cover"/>
             </div>
             
-            <div className="text-center h-[50vh]" >
+            <div className="text-center h-[50vh] md:w-[50vw] md:h-[70vh] md:pt-12" >
                 <h2 className="font-extrabold text-3xl pt-12  ">
                     Transform your brand
                 </h2>
@@ -21,11 +21,11 @@ export const SectionImageText = () => {
             </div>
         </div>
 
-        <div className=" h-[100vh]" >
-            <div className=" h-[50vh]">
+        <div className=" h-[100vh] md:flex-row" >
+            <div className=" h-[50vh] md:w-[50vw]">
                 <img src="./images/mobile/image-stand-out.jpg" alt="" className="h-[100%] w-[100%] object-cover"/>
             </div>
-            <div className="text-center h-[50vh]" >
+            <div className="text-center h-[50vh] md:w-[50vw]" >
                 <h2 className="font-extrabold text-3xl pt-12  ">
                     Stand out to the right audience
                 </h2>

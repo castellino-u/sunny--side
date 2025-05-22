@@ -10,3 +10,29 @@ Estados globales(la store):
 Media querys: 
 esto hacerlo con cada div, por ejemplo esto lo vamos a hacer con md: y la medida
 
+📱 Breakpoints en Tailwind por defecto
+Prefijo	    Mínimo ancho	Dispositivo típico
+sm:    	    640px	        Celulares grandes
+md:	        768px	        Tablets
+lg:	        1024px	        Laptops
+xl:	        1280px	        Monitores grandes
+2xl:	    1536px	        Pantallas muy grandes
+
+¿Cómo se usa? 
+
+ponemos la media query seleccionada + lo que quieras
+ej: md: w-[50%vw]
+
+En Tailwind CSS, no escribís media queries manualmente. En su lugar, usás prefijos responsive que Tailwind convierte automáticamente en media queries al compilar.
+
+🧠 ¿Cómo funcionan?
+Tailwind usa estos breakpoints por defecto:
+
+Breakpoint	Prefijo	    Tamaño mínimo (min-width)
+sm	        sm:	        640px
+md	        md:     	768px
+lg	        lg:	        1024px
+xl	        xl:	        1280px
+2xl	        2xl:	    1536px
+
+Esto quiere decir por ejemplo md, es desde 768px para arriba, de ahí para arriba se van a acomodar las cosas como quiero
